@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="bower_components/selectize/dist/css/selectize.default.css">
+</head>
+<body>
+
+	<select id="select-gear" class="demo-default" multiple placeholder="Select gear...">
+		<option value="">Select gear...</option>
+		<optgroup label="Climbing">
+			<option value="pitons">Pitons</option>
+			<option value="cams">Cams</option>
+			<option value="nuts">Nuts</option>
+			<option value="bolts">Bolts</option>
+			<option value="stoppers">Stoppers</option>
+			<option value="sling">Sling</option>						
+			<option value="skis">Skis</option>
+			<option value="skins">Skins</option>
+			<option value="poles">Poles</option>
+			<option value="poles1">Lorem ipsum dolor.</option>
+		</optgroup>
+	</select>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/selectize/dist/js/standalone/selectize.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#select-gear').selectize({
+			sortField: 'text'
+		});		
+	});
+</script>
+
+
+
+
+</body>
+</html>
