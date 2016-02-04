@@ -1,0 +1,21 @@
+{
+  "name": "selectize-boilerplate",
+  "homepage": "https://github.com/ismnoiet/boilerplates",
+  "authors": [
+    "ismnoiet <ismnoiet@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "selectize": "~0.12.1"
+  }
+}
