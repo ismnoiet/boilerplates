@@ -1,0 +1,13 @@
+{
+    "name": "ismnoiet/slim3-boilerplate",
+    "authors": [
+        {
+            "name": "ismnoiet",
+            "email": "ismnoiet@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/pdo": "^1.9"
+    }
+}
