@@ -1,0 +1,29 @@
+{
+  "name": "ismnoiet-boilerplate-nodejs-cli",
+  "version": "0.0.1",
+  "description": "nodejs cli boilerplate",
+  "bin": {
+    "commandX": "./bin/commandX"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish":"standard-format -w bin/commandX"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ismnoiet/boilerplates.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ismnoiet/boilerplates/issues"
+  },
+  "keywords": [""],
+  "author": "ismnoiet <ismnoiet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "standard-format": "^2.1.0"
+  }
+}
